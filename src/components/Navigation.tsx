@@ -27,7 +27,7 @@ const Navigation = () => {
       </div>
       {/* Right Menu  */}
 
-      <div className="hidden md:flex gap-4 flex-1 items-center justify-center">
+      <div className="hidden md:flex gap-4 flex-1 items-center justify-end">
         <div className="md:absolute top-3 right-2 lg:static cursor-pointer bg-orange-300 p-1 rounded-md flex items-center justify-items-center text-white">
           <Image
             src="/phone.png"
