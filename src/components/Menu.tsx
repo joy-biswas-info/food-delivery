@@ -7,13 +7,13 @@ const links = [
   { id: 1, title: "Homepage", url: "/" },
   { id: 2, title: "Menu", url: "/menu" },
   { id: 3, title: "Working Hours", url: "/" },
-  { id: 4, title: "Contact", url: "/" },
+  { id: 4, title: "Contact", url: "/contact" },
 ];
 const Menu = () => {
   const [open, setOpen] = useState(false);
   const user = false;
   return (
-    <div className="md:hidden">
+    <div>
       {!open ? (
         <Image
           src="/open.png"
@@ -45,7 +45,7 @@ const Menu = () => {
               Login
             </Link>
           ) : (
-            <Link href="/login" onClick={() => setOpen(false)}>
+            <Link href="/order" onClick={() => setOpen(false)}>
               Order
             </Link>
           )}
