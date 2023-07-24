@@ -4,8 +4,8 @@ import React from "react";
 
 const CartIcon = () => {
   return (
-    <div className="flex gap-2">
-      <Image src="/cart.png" alt="" height={"20"} width={"20"} />
+    <div className="flex gap-2 items-center justify-center">
+      <Image src="/cart.png" alt="" height={10} width={20} />
       <span>Cart (0)</span>
     </div>
   );
