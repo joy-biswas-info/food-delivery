@@ -7,11 +7,11 @@ import Image from "next/image";
 const Navigation = () => {
   const user = false;
   return (
+    <nav>
         <Link href="/">Home</Link>
         <Link href="/menu">Menu</Link>
         <Link href="/contact">Contact</Link>
-      </div>
-
+ <div>
       {/* Logo  */}
         <Link href="/">Masimo</Link>
       </div>
@@ -21,7 +21,7 @@ const Navigation = () => {
         <Menu />
       </div>
       {/* Right Menu  */}
-
+<div>
         <div className="md:absolute top-3 right-2 lg:static cursor-pointer bg-orange-300 p-1 rounded-md flex items-center justify-items-center text-white">
           <Image
             src="/phone.png"
